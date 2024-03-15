@@ -1,0 +1,88 @@
+
+
+.dis{
+  background-color: rgb(217, 188, 233);
+  margin: 96px;
+  padding: 48px;
+  @media (max-width: 1275px) {
+    margin: 90px;
+    padding: 40px;
+  }
+  @media (max-width: 1147px) {
+    margin: 60px;
+    padding: 30px;
+  }
+}
+
+
+
+.card-link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  .icon-container {
+    margin-left: 50px;
+    font-size: 80px;
+
+    @media (max-width: 1275px) {
+      margin-left: 40px;
+      font-size: 70px;
+    }
+    @media (max-width: 1147px) {
+      margin-left: 34px;
+      font-size: 62px;
+    }
+  
+  
+    svg {
+      color: #9178a4; /* Pembemsi ikon rengini belirtin */
+    }
+
+  
+
+
+  }
+  
+  .card-title {
+    font-size: 25px !important;
+    width: 160px;
+
+    @media (max-width: 1275px) {
+      font-size: 20px !important;
+      width: 140px;
+    }
+
+    @media (max-width: 1147px) {
+      font-size: 17px !important;
+      width: 110px;
+  
+    }
+  }
+  
+  .card-text {
+    /* İstediğiniz metin stillerini ekleyebilirsiniz */
+    font-size: 48px ;
+
+    @media (max-width: 1275px) {
+      font-size: 40px ;
+  
+    }
+    @media (max-width: 1147px) {
+      font-size: 35px ;
+  
+    }
+  }
+  
+  .card {
+    background-color: rgb(180, 153, 197) !important;
+    border: none !important;
+  
+    &:hover {
+      background-color: rgb(217, 188, 233) !important;
+    }
+  }
+  

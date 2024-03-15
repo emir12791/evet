@@ -1,0 +1,34 @@
+@use "../../styles/variables" as v;
+
+
+.Menubar{
+    background-color: rgba(127, 255, 212, 0.5);
+    color: red;
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+}
+
+.sag{
+    padding-top: px;
+    padding-bottom:20px;
+
+}
+
+.logo{
+    width: 15rem;
+
+
+
+    @media (max-width: 767px) {
+
+
+
+    }
+
+
+}
+
+
+
+

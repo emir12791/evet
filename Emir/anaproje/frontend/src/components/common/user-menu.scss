@@ -1,0 +1,33 @@
+@use "../../styles/variables" as v;
+
+.user-menu{
+
+    a{
+        color: v.$color4;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+}
+
+
+.of{
+    background-color: green !important;
+
+}
+
+.of * {
+    color: lightgreen !important;
+
+
+    &:hover{
+        color: cyan !important;
+
+
+
+    }
+
+
+}
+
+
